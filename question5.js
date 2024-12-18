@@ -5,11 +5,19 @@
 // Logga fullInfo till konsolen.
 
 const personInfo = {
-  name: "Kalle",
-  age: 30,
+    name: "Kalle",
+    age: 30,
 };
 
 const contactInfo = {
-  phone: "123-456-789",
-  email: "kalle@mail.com",
+    phone: "123-456-789",
+    email: "kalle@mail.com",
 };
+
+const fullInfo = {
+    personInfo,
+    contactInfo,
+    city: "Göteborg"
+};
+
+console.log(fullInfo);
