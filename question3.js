@@ -3,7 +3,10 @@
 // och returner den nya arrayen.
 
 function removeApples(fruits) {
-  //Din kod här
+    return fruits.filter(fruit => fruit !== "apple");
 }
 
-console.log(removeApples(["apple", "banana", "orange", "apple"])); // ska logga ["banana", "orange"]
+console.log(removeApples(["apple", "banana", "orange", "apple"])); 
+console.log(removeApples(["apple", "grape", "apple", "pear"])); 
+console.log(removeApples(["banana", "apple", "apple", "apple"])); 
+
