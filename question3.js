@@ -6,7 +6,7 @@ function removeApples(fruits) {
     return fruits.filter(fruit => fruit !== "apple");
 }
 
-console.log(removeApples(["apple", "banana", "orange", "apple"])); 
-console.log(removeApples(["apple", "grape", "apple", "pear"])); 
-console.log(removeApples(["banana", "apple", "apple", "apple"])); 
+console.log(removeApples(["apple", "banana", "strawberry", "apple"])); 
+console.log(removeApples(["apple", "melon", "apple", "pear"])); 
+console.log(removeApples(["banana", "banana", "pear", "strawberry"])); 
 
