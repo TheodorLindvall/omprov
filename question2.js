@@ -4,7 +4,13 @@
 // dela det med antalet siffror. medelvärdet = summan / antal.
 
 function average(numbers) {
-  //Din kod här
+    let sum = 0; 
+
+    numbers.forEach(number => {
+        sum += number; 
+    });
+
+    return sum; 
 }
 
 console.log(average([1, 2, 3, 4, 5])); // Ska logga 3
